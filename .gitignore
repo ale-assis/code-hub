@@ -1,8 +1,66 @@
-__pycache__/
-*.pyc
+############################
+# SISTEMA OPERACIONAL
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# INTELLIJ / JETBRAINS
+############################
 .idea/
 *.iml
+out/
+
+############################
+# ECLIPSE
+############################
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+############################
+# NETBEANS
+############################
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+############################
+# VS CODE
+############################
+.vscode/
+
+############################
+# JAVA BUILD
+############################
+target/
+build/
+
+############################
+# PYTHON
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 .ipynb_checkpoints/
 venv/
 .env
+
+############################
+# PHP
+############################
+vendor/
+
+############################
+# LOGS
+############################
+*.log
 
